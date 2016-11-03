@@ -13,6 +13,7 @@
 		485807A41DCAE11D00196737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485807A21DCAE11D00196737 /* Main.storyboard */; };
 		485807A61DCAE11D00196737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485807A51DCAE11D00196737 /* Assets.xcassets */; };
 		485807A91DCAE11D00196737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485807A71DCAE11D00196737 /* LaunchScreen.storyboard */; };
+		485807B41DCAE3AB00196737 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 485807B31DCAE3AB00196737 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		485807A51DCAE11D00196737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		485807A81DCAE11D00196737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485807AA1DCAE11D00196737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485807B31DCAE3AB00196737 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		485807B51DCAE3C000196737 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		485807981DCAE11D00196737 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				485807B31DCAE3AB00196737 /* Card.m */,
+				485807B51DCAE3C000196737 /* Card.h */,
 				4858079F1DCAE11D00196737 /* ViewController.h */,
 				485807A01DCAE11D00196737 /* ViewController.m */,
 				485807A21DCAE11D00196737 /* Main.storyboard */,
@@ -154,6 +159,7 @@
 				485807A11DCAE11D00196737 /* ViewController.m in Sources */,
 				4858079E1DCAE11D00196737 /* AppDelegate.m in Sources */,
 				4858079B1DCAE11D00196737 /* main.m in Sources */,
+				485807B41DCAE3AB00196737 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
