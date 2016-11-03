@@ -58,14 +58,9 @@
 		485807981DCAE11D00196737 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
-				4858079C1DCAE11D00196737 /* AppDelegate.h */,
-				4858079D1DCAE11D00196737 /* AppDelegate.m */,
 				4858079F1DCAE11D00196737 /* ViewController.h */,
 				485807A01DCAE11D00196737 /* ViewController.m */,
 				485807A21DCAE11D00196737 /* Main.storyboard */,
-				485807A51DCAE11D00196737 /* Assets.xcassets */,
-				485807A71DCAE11D00196737 /* LaunchScreen.storyboard */,
-				485807AA1DCAE11D00196737 /* Info.plist */,
 				485807991DCAE11D00196737 /* Supporting Files */,
 			);
 			path = CardGame;
@@ -74,6 +69,11 @@
 		485807991DCAE11D00196737 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				485807A51DCAE11D00196737 /* Assets.xcassets */,
+				485807A71DCAE11D00196737 /* LaunchScreen.storyboard */,
+				485807AA1DCAE11D00196737 /* Info.plist */,
+				4858079C1DCAE11D00196737 /* AppDelegate.h */,
+				4858079D1DCAE11D00196737 /* AppDelegate.m */,
 				4858079A1DCAE11D00196737 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					485807951DCAE11D00196737 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H69H7F76LV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -270,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H69H7F76LV;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hangu.CardGame;
@@ -281,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H69H7F76LV;
 				INFOPLIST_FILE = CardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hangu.CardGame;
