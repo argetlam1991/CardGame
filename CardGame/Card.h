@@ -6,10 +6,10 @@
 //  Copyright © 2016 Gu Han. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #ifndef Card_h
 #define Card_h
+
+#import <Foundation/Foundation.h>
 
 @interface Card : NSObject
 
