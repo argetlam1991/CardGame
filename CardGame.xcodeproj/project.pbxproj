@@ -13,6 +13,7 @@
 		485807A41DCAE11D00196737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485807A21DCAE11D00196737 /* Main.storyboard */; };
 		485807A61DCAE11D00196737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485807A51DCAE11D00196737 /* Assets.xcassets */; };
 		485807A91DCAE11D00196737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485807A71DCAE11D00196737 /* LaunchScreen.storyboard */; };
+		48E0E0391DCC2A4E00137B92 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E0381DCC2A4E00137B92 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		485807A81DCAE11D00196737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485807AA1DCAE11D00196737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485807B51DCAE3C000196737 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		48E0E0381DCC2A4E00137B92 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		48E0E03A1DCC2A6900137B92 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				485807A01DCAE11D00196737 /* ViewController.m */,
 				485807A21DCAE11D00196737 /* Main.storyboard */,
 				485807991DCAE11D00196737 /* Supporting Files */,
+				48E0E0381DCC2A4E00137B92 /* Deck.m */,
+				48E0E03A1DCC2A6900137B92 /* Deck.h */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E0E0391DCC2A4E00137B92 /* Deck.m in Sources */,
 				485807A11DCAE11D00196737 /* ViewController.m in Sources */,
 				4858079E1DCAE11D00196737 /* AppDelegate.m in Sources */,
 				4858079B1DCAE11D00196737 /* main.m in Sources */,
@@ -312,6 +318,7 @@
 				485807AF1DCAE11D00196737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
