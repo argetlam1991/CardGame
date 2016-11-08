@@ -16,6 +16,7 @@
 		48E0E0391DCC2A4E00137B92 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E0381DCC2A4E00137B92 /* Deck.m */; };
 		48E0E03C1DCC302700137B92 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E03B1DCC302700137B92 /* PlayingCard.m */; };
 		48E0E03F1DCC381100137B92 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E03E1DCC381100137B92 /* Card.m */; };
+		48E0E0471DD17F6C00137B92 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		48E0E03B1DCC302700137B92 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		48E0E03D1DCC303400137B92 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		48E0E03E1DCC381100137B92 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		48E0E0451DD17F6C00137B92 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		485807981DCAE11D00196737 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				48E0E0451DD17F6C00137B92 /* PlayingCardDeck.h */,
+				48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */,
 				48E0E03E1DCC381100137B92 /* Card.m */,
 				485807B51DCAE3C000196737 /* Card.h */,
 				4858079F1DCAE11D00196737 /* ViewController.h */,
@@ -170,6 +175,7 @@
 				485807A11DCAE11D00196737 /* ViewController.m in Sources */,
 				4858079E1DCAE11D00196737 /* AppDelegate.m in Sources */,
 				48E0E03C1DCC302700137B92 /* PlayingCard.m in Sources */,
+				48E0E0471DD17F6C00137B92 /* PlayingCardDeck.m in Sources */,
 				4858079B1DCAE11D00196737 /* main.m in Sources */,
 				48E0E03F1DCC381100137B92 /* Card.m in Sources */,
 			);
