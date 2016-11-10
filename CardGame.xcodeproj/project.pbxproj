@@ -14,12 +14,15 @@
 		483215221DD18B7700CFB1FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4858079A1DCAE11D00196737 /* main.m */; };
 		483215231DD18B7700CFB1FD /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E0381DCC2A4E00137B92 /* Deck.m */; };
 		483215241DD18B7700CFB1FD /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E0E03B1DCC302700137B92 /* PlayingCard.m */; };
+		483215271DD430D900CFB1FD /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 483215261DD430D900CFB1FD /* CardMatchingGame.m */; };
 		485807A61DCAE11D00196737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485807A51DCAE11D00196737 /* Assets.xcassets */; };
 		485807A91DCAE11D00196737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485807A71DCAE11D00196737 /* LaunchScreen.storyboard */; };
 		48E0E04F1DD18A2000137B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E0E04E1DD18A2000137B92 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483215261DD430D900CFB1FD /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		483215281DD430F200CFB1FD /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 		485807961DCAE11D00196737 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4858079A1DCAE11D00196737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4858079C1DCAE11D00196737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,8 @@
 		483215251DD42C4700CFB1FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				483215261DD430D900CFB1FD /* CardMatchingGame.m */,
+				483215281DD430F200CFB1FD /* CardMatchingGame.h */,
 				48E0E0451DD17F6C00137B92 /* PlayingCardDeck.h */,
 				48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */,
 				48E0E0381DCC2A4E00137B92 /* Deck.m */,
@@ -183,6 +188,7 @@
 				4832151F1DD18B7700CFB1FD /* Card.m in Sources */,
 				483215201DD18B7700CFB1FD /* CardGameViewController.m in Sources */,
 				483215211DD18B7700CFB1FD /* AppDelegate.m in Sources */,
+				483215271DD430D900CFB1FD /* CardMatchingGame.m in Sources */,
 				483215221DD18B7700CFB1FD /* main.m in Sources */,
 				483215231DD18B7700CFB1FD /* Deck.m in Sources */,
 				483215241DD18B7700CFB1FD /* PlayingCard.m in Sources */,
