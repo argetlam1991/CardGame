@@ -51,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		483215251DD42C4700CFB1FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48E0E0451DD17F6C00137B92 /* PlayingCardDeck.h */,
+				48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */,
+				48E0E0381DCC2A4E00137B92 /* Deck.m */,
+				48E0E03A1DCC2A6900137B92 /* Deck.h */,
+				48E0E03B1DCC302700137B92 /* PlayingCard.m */,
+				48E0E03D1DCC303400137B92 /* PlayingCard.h */,
+				48E0E03E1DCC381100137B92 /* Card.m */,
+				485807B51DCAE3C000196737 /* Card.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4858078D1DCAE11D00196737 = {
 			isa = PBXGroup;
 			children = (
@@ -70,18 +85,11 @@
 		485807981DCAE11D00196737 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
-				48E0E0451DD17F6C00137B92 /* PlayingCardDeck.h */,
-				48E0E0461DD17F6C00137B92 /* PlayingCardDeck.m */,
-				48E0E03E1DCC381100137B92 /* Card.m */,
-				485807B51DCAE3C000196737 /* Card.h */,
+				483215251DD42C4700CFB1FD /* Model */,
 				4858079F1DCAE11D00196737 /* CardGameViewController.h */,
 				485807A01DCAE11D00196737 /* CardGameViewController.m */,
 				48E0E04E1DD18A2000137B92 /* Main.storyboard */,
 				485807991DCAE11D00196737 /* Supporting Files */,
-				48E0E0381DCC2A4E00137B92 /* Deck.m */,
-				48E0E03A1DCC2A6900137B92 /* Deck.h */,
-				48E0E03B1DCC302700137B92 /* PlayingCard.m */,
-				48E0E03D1DCC303400137B92 /* PlayingCard.h */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
